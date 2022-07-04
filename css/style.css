@@ -128,7 +128,7 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 480px) and (max-width: 768px) {
     .container {
         width: 768px; 
     }
@@ -141,9 +141,18 @@ img {
     .row {
         /* width: 100%; */
         flex-wrap: wrap;
-        gap: 50px;
+        gap: 70px;
     }
     .col {
         flex-basis: 100%;
     }
 }
+
+
+/* @media screen and (min-width: 768px) and (max-width:1160px) {
+    .container {
+        max-width: 768px;
+        /* overflow: hidden; */
+    }
+} */
+
